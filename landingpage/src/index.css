@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 10px;
+    scroll-behavior: smooth;
+  }
+
+  body{
+    --bg: #494BA2;
+    --color: #F3F3F3;
+
+    color: var(--color);
+    font-family: 'Krona One', sans-serif;
+
+    background-color: var(--bg);
+  }
