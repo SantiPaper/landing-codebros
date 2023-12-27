@@ -1,5 +1,4 @@
 import { StyledHero } from "./style";
-import { Animation } from "../animation";
 
 export const Hero = () => {
   return (
