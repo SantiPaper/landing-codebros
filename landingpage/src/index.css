@@ -18,3 +18,18 @@
 
     background-color: var(--bg);
   }
+
+  button,
+input,
+select {
+  font: inherit;
+}
+
+button:focus-visible,
+a:focus-visible,
+input:focus-visible,
+select:focus-visible,
+input:focus-visible + label {
+  outline: 2px dashed cyan;
+  outline-offset: 0.2rem;
+}

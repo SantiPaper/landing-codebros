@@ -7,13 +7,13 @@ export const NavBar = () => {
       <img src={image} alt="icon" />
       <ul>
         <li>
-          <a href="#">Inicio</a>
-        </li>
-        <li>
           <a href="#">Sobre nosotros</a>
         </li>
         <li>
-          <a href="#">Referencias</a>
+          <a href="#">Que ofrecemos</a>
+        </li>
+        <li>
+          <a href="#">Clientes</a>
         </li>
       </ul>
     </StyledNavbar>

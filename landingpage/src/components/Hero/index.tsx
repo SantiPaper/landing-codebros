@@ -1,4 +1,5 @@
 import { StyledHero } from "./style";
+import { Animation } from "../animation";
 
 export const Hero = () => {
   return (
@@ -11,7 +12,7 @@ export const Hero = () => {
         fugit laboriosam. Lorem ipsum dolor sit amet consectetur, adipisicing
         elit. Voluptas fuga vol
       </p>
-      <a href="">Conoce mas</a>
+      <a href="">Ver nuestros servicios</a>
     </StyledHero>
   );
 };

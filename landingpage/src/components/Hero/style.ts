@@ -10,7 +10,7 @@ const fadeIn = keyframes`
 `;
 
 export const StyledHero = styled.section`
-min-height: 85vh;
+min-height: 90vh;
 min-width: 100%;
 display: flex;
 flex-direction: column;

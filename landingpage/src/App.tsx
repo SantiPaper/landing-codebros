@@ -2,6 +2,7 @@ import { Container } from "./components/container";
 import { NavBar } from "./components/navbar";
 import { Hero } from "./components/Hero";
 import "./index.css";
+import { Services } from "./components/Services";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <NavBar />
       <main>
         <Hero />
+        <Services />
       </main>
     </Container>
   );
