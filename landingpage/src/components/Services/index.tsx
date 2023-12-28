@@ -10,7 +10,7 @@ export const Services = () => {
     Aos.init();
   }, []);
 
-  const [service, setService] = useState({});
+  //const [service, setService] = useState({});
   return (
     <StyledServices>
       <div className="title-section">
