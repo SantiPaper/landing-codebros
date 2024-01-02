@@ -2,9 +2,9 @@ import {styled} from 'styled-components'
 
 export const StyledAnimation = styled.div`
 width: 90%;
-border: 5px solid white;
 height: 40rem;
-color: var(--color);
+color: var(--bg);
+background-color: var(--color);
 display: flex;
 flex-direction: column;
 align-items: center;

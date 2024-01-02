@@ -11,6 +11,7 @@ function App() {
       <main>
         <Hero />
         <Services />
+        <Hero />
       </main>
     </Container>
   );

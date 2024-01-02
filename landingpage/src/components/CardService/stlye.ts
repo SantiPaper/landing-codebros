@@ -19,9 +19,10 @@ font-size: 2.5rem;
 button{
     padding: 1rem 2rem;
     border-radius: 1rem;
-    background-color: var(--bg);
     color: var(--color);
+    background-color: var(--bg);
     border: none;
+    border-bottom: 2px solid #5F4721;
     cursor: pointer;
 }
 `

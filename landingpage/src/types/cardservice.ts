@@ -1,4 +1,4 @@
 export type obj = {
-    title: string;
-    description: string;
+    title?: string;
+    description?: string;
   };

@@ -11,13 +11,11 @@ export const Services = () => {
     Aos.init();
   }, []);
 
-  const [service, setService] = useState({});
+  const [service, setService] = useState<obj>({});
 
   const handleService = (obj: obj) => {
     setService(obj);
   };
-
-  console.log(service);
 
   return (
     <StyledServices>
@@ -28,7 +26,7 @@ export const Services = () => {
           boton ver mas*
         </p>
       </div>
-      <div className="services">
+      <div className="services" data-aos="zoom-in">
         <CardService
           handleService={handleService}
           obj={{
@@ -54,7 +52,9 @@ export const Services = () => {
           }}
         />
       </div>
-      <Animation />
+      {service.title !== undefined ? (
+        <Animation title={service?.title} description={service?.description} />
+      ) : null}
     </StyledServices>
   );
 };
