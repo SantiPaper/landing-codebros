@@ -3,6 +3,7 @@ import { NavBar } from "./components/navbar";
 import { Hero } from "./components/Hero";
 import "./index.css";
 import { Services } from "./components/Services";
+import { Clients } from "./components/Clients";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <main>
         <Hero />
         <Services />
+        <Clients />
       </main>
     </Container>
   );

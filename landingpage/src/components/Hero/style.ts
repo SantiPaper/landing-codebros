@@ -30,7 +30,7 @@ h1{
 
 p{
     width: 100%;
-    max-width: 75ch;
+    max-width: 80ch;
     font-size: 1.4rem;
     margin-bottom: 4rem;
     animation: ${fadeIn} 1200ms forwards;

@@ -9,7 +9,7 @@ type Props = {
 export const Animation = ({ title, description }: Props) => {
   Aos.init();
   return (
-    <StyledAnimation data-aos="fade-down">
+    <StyledAnimation data-aos="zoom-in">
       <h3>{title}</h3>
       <p>{description}</p>
     </StyledAnimation>
