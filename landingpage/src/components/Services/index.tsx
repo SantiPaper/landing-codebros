@@ -2,8 +2,8 @@ import { useEffect, useState } from "react";
 import { StyledServices } from "./style";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import { CardService } from "../CardService";
 import { Animation } from "../animation";
+import { CardService } from "../CardService";
 import { obj } from "../../types/cardservice";
 
 export const Services = () => {
